@@ -10,9 +10,9 @@ public class Permutation {
 
         if(r == 0) {
             String tempAns = "";
-            //01, 1 은 모두 1로 간주하기 때문에 앞자리가 1은 제외 시켜야함
+            //01, 1 은 모두 1로 간주하기 때문에 앞자리가 1은 제외 시켜야함 
             if(!result.get(0).equals("0")) {
-                for(int i = 0; i < result.size(); i++) {
+                for(int i = 0; i < result.size(); i++) {            
                     tempAns = tempAns + result.get(i);
                 }
                 answerList.push(tempAns);
