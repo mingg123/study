@@ -14,7 +14,7 @@ public class Tuple {
                 // 다음은  가장 앞에 { 제거
                 str[i] = str[i].replace("{", "");
                 str[i] = str[i].replace("}", "");
-
+   
                 token = str[i].split(",");
                 for (int j = 0; j < token.length; j++) {
                     if (!set.contains(Integer.parseInt(token[j]))) {
