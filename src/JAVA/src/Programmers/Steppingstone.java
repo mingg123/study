@@ -1,4 +1,6 @@
 import java.util.*;
+// 그저 if, else문으로 풀면 무조건 시간초과난다.
+// 이진탐색법을 이용하여 풀어야함
 public class Steppingstone {
 class Solution {
     public boolean validation(int m, int k, int [] stones) {
